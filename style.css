@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .home-page {
-    height: 95vh;    
+    height: 96vh;    
     padding: 20px 40px;    
     background: rgb(95,77,93);
     background: linear-gradient(90deg, rgba(95,77,93,1) 0%, rgba(110,135,138,1) 100%);
@@ -18,16 +18,21 @@ body {
 }
 .name {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    padding: 20px 20px;
+    font-size: 40px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
 }
 .top-menu {
     display: flex;
+    flex-wrap: wrap;
 }
 .top-menu-item {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    padding: 20px 20px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
 }
 main {
     width: 100%;
@@ -40,14 +45,24 @@ main {
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: 0%;
 }
 .bottom-menu {
     display: flex;
+    flex-wrap: wrap;
 }
 .bottom-menu-item {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
-    padding: 20px 20px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+.contacts {
+    display: flex;
+}
+.logo-link {
+    margin-right: 50px;
+}
+.logo {
+    height: 30px;    
 }
